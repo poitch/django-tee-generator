@@ -31,11 +31,13 @@ Copy `Avenir Next.ttc` and `Helvetica.ttc` in `tee/assets`
 
 Browse to your application with the following URL:
 
-`/tee/create/{shape}/{color}/{text color}/{lines}/{filename}.png`
+`/tee/create/{shape}/{color}/{text color}/{font}/{lines}/{filename}.png`
 
-The shape can either be `crew` or `v` to generate a crew t-shirt of a v-neck t-shirt.
+The shape can only be `crew` to generate a crew t-shirt. (Someday the V-Neck tshirt mask could be added to have multiple shapes)
 
 `color` and `text color` must be HEX colors with 6 characters.
+
+`font` can either be `Avenir` or `Helvetica`.
 
 `lines` will be the text that will be _printed_ on the t-shirt. Each line needs to be separated by a `/`.
 
